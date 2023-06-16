@@ -5,7 +5,8 @@
 /**
  * main - the main fun.
  * Description: 0. Positive anything is better than negative nothing
- * Return: Always (0)*/
+ * Return: Always (0)
+*/
 int main(void)
 {
 	int n;
@@ -13,16 +14,13 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n < 0) {
-		printf("n , is negative\n");
+		printf("%i is negative\n" , n);
 	}
 	else if (n == 0) {
-                printf("n , is zero\n");
-        }
-	else if (n > 0) {
-                printf("n , is positive\n");
+                printf("%i is zero\n" , n);
         }
 	else {
-		printf("Nothing");
+                printf("%i is positive\n" , n);
 	}
 	return (0);
 }
