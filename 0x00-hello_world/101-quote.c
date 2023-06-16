@@ -1,12 +1,13 @@
 #include <unistd.h>
 
 /**
- * main - print using write fun
- * Return: 1
+ * main - Entry point
+ * Description: print a quote
+ * Return: 1 (error).
 */
 
 int main(void)
-	char quo[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+{	char quo[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 	write(1, quo, 59);
-return (1);
+	return (1);
 }
