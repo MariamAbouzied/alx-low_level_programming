@@ -1,6 +1,6 @@
 #include <unistd.h>
 
-/*
+/**
  * main - print using write fun
  * Return: 1
 */
