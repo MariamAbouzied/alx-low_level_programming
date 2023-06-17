@@ -5,10 +5,9 @@
 /**
  * main - entry point
  *
- * Description: print the value of n status:
- *		greater than, is zero and is not less than 6.
+ * Description: The last digit
  *
- * Return: 0 (success)
+ * Return: 0 (Success)
 */
 
 int main(void)
@@ -17,14 +16,19 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+	int y = n % 10;
 
-	number = n % 10;
-
-	if (number > 5)
-		printf("Last digit of %i is %i and is greater than 5\n", n, number);
-	else if (number == 0)
-		printf("Last digit of %i is %i and is 0\n", n, number);
-	else if (number < 6 && number != 0)
-		printf("Last digit of %i is %i and is less than 6 and not 0\n", n, number);
+	if (y > 5)
+	{
+		printf("Last digit of %d is %d and is greater than 5\n", n, y);
+	}
+	else if (y < 6 && y != 0)
+	{
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, y);
+	}
+	else
+	{
+		printf("Last digit of %d is %d and is 0\n", n, y);
+	}
 	return (0);
 }
