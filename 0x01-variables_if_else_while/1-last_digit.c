@@ -3,9 +3,10 @@
 #include <stdio.h>
 
 /**
- * main - Entry Point
+ * main - entry point
  *
- * Description: print the last digit of the number stored in the variable
+ * Description: print the value of n status:
+ *		greater than, is zero and is not less than 6.
  *
  * Return: 0 (success)
 */
@@ -21,7 +22,7 @@ int main(void)
 	if (number > 5)
 		printf("Last digit of %i is %i and is greater than 5\n", n, number);
 	else if (number == 0)
-		printf("Last digit of %i is %i and is 0\n",n ,number);
+		printf("Last digit of %i is %i and is 0\n", n, number);
 	else if (number < 6 && number != 0)
 		printf("Last digit of %i is %i and is less than 6 and not 0\n", n, number);
 	return (0);
