@@ -3,9 +3,11 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * main - Entry Point
+ *
  * Description: print the last digit of the number stored in the variable
- * Return: Always (0)
+ *
+ * Return: 0 (success)
 */
 
 int main(void)
@@ -14,13 +16,13 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	num = n % 10;
+	number = n % 10;
 
-	if (num > 5)
-		printf("Last digit of %i is %i and is greater than 5\n", n, num);
-	else if (num == 0)
-		printf("Last digit of %i is %i and is 0\n",n ,num);
-	else if (num < 6 && num != 0)
-		printf("Last digit of %i is %i and is less than 6 and not 0\n", n, num);
+	if (number > 5)
+		printf("Last digit of %i is %i and is greater than 5\n", n, number);
+	else if (number == 0)
+		printf("Last digit of %i is %i and is 0\n",n ,number);
+	else if (number < 6 && number != 0)
+		printf("Last digit of %i is %i and is less than 6 and not 0\n", n, number);
 	return (0);
 }
