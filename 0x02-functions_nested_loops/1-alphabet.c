@@ -3,7 +3,8 @@
 /**
  * main - Enrty pount
  *
- * print_alphabet - Prints the alphabt using _putchar function
+ * print_alphabet - Prints the alphabt in lowercase using _putchar function.
+ *
  * Return: always 0
 */
 
