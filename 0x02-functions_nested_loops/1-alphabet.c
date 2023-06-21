@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * main - Enrty point
- * print_alphabet: print alphabt using _putchar function
+ * main - Enrty pount
+ *
+ * print_alphabet - Prints the alphabt using _putchar function
  * Return: always 0
 */
 
