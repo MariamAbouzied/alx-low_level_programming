@@ -1,11 +1,7 @@
 #include "main.h"
 
 /**
- * main - Enrty pount
- *
  * print_alphabet - Prints the alphabt in lowercase using _putchar function.
- *
- *Description: Prints the alphabt in lowercase using _putchar function.
  *
  * Return: always 0
 */
