@@ -2,7 +2,7 @@
 
 /**
  * main - Enrty point
- * Description: print alphabt using function print_alphabet
+ * print_alphabet: print alphabt using _putchar function
  * Return: always 0
 */
 
