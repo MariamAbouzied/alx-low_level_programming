@@ -2,7 +2,7 @@
 
 /**
  * main - Enrty point
- * Description: print abcd.. to z
+ * Description: print alphabt using function print_alphabet
  * Return: always 0
 */
 
