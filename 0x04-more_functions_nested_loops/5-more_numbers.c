@@ -3,8 +3,6 @@
 /**
  * more_numbers - print more nums
  * Return: nothing
- * @i: int
- * @j: int
 */
 
 void more_numbers(void)
