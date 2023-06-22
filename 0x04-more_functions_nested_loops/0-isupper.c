@@ -2,7 +2,7 @@
 
 /**
  * _isupper - check the code.
- *
+ * @c: character
  * Return: 1 or 0
 */
 
